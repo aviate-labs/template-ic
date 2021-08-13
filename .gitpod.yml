@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - command: |
+      dfx --version
+
+vscode:
+  extensions:
+    - dfinity-foundation.vscode-motoko
